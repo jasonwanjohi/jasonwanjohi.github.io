@@ -4,6 +4,9 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
+
+
 body {
     overflow-x: hidden;
 }
@@ -54,7 +57,7 @@ hr.star-primary:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: FontAwesome;
+    font-family: "Font Awesome 5 Free";
     font-size: 2em;
 }
 
@@ -96,6 +99,13 @@ header img {
     margin: 0 auto 20px;
 }
 
+.skills-icons{
+    position: relative;
+    padding-top: 246px;
+    margin-top: 123px;
+    min-height: 1px;
+}
+
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
@@ -111,12 +121,12 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 80px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3.75em;
     }
 
     header .intro-text .skills {
@@ -192,6 +202,18 @@ section.success {
 
     section.first {
         padding-top: 75px;
+    }
+
+    .skills-icons{
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media(min-width:768px) and (max-width:1199px){
+    .skills-icons{
+        padding-top: 20px;
+        margin-top: 10px;
     }
 }
 
