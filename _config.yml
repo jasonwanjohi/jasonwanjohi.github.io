@@ -1,0 +1,57 @@
+# Site settings
+title: Jason Wanjohi
+email: wanjohijason@gmail.com
+url: https://jasonwanjohi.github.io
+description: "CV site."
+keywords: "github-pages"
+skills: "Graphic Artist - User Experience Designer - Web Developer"
+meta_author: Jason Wanjohi
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: ffa600 #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 303f9f #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Jason Wanjohi
+  location: Area Code
+  social: Around the Web
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/crae_jay
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/2568329/jason-wanjohi
+  - title: github
+    url: http://github.com/jasonwanjohi
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Nairobi Kenya
+
+# Credits content
+credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
